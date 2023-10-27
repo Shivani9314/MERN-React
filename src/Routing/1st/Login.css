@@ -1,0 +1,18 @@
+.Container{
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+}
+
+input{
+    width: 400px;
+    height: 25px;
+}
+
+button{
+    width: 60px;
+    height: 25px;
+    background-color: skyblue;
+    border: none;
+}
+

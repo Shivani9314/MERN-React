@@ -1,0 +1,53 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    opacity: 0.2;
+    align-self: center;
+    margin: 0px;
+    margin-left: -50px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+h1{
+    position: absolute;
+    text-align: center;
+    margin-left: 375px;
+    margin-top: -860px;
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.form-box{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 100px;
+    margin-top: -800px;
+    margin-left: 50px;
+}
+
+form{
+    display: grid;
+}
+
+input{
+    height: 40px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: rgb(207, 250, 207);
+    border: none;
+}
+
+label{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}

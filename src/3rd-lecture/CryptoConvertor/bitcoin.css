@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    width: 1000px;
+    margin-left: 140px;
+    justify-content: center;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 200px;
+}
+
+.form{
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.input{
+    width: 460px;
+}
+
+
+.select{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
+}

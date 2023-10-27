@@ -1,0 +1,20 @@
+.card{
+    background-color: #eee;
+    width: 250px;
+    height: 225px;
+    margin-bottom: 10px;
+}
+
+.title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.view-box{
+    display: flex;
+    gap: 150px;
+    margin-top: -10px;
+    font-size: small;
+    color: gray;
+    margin-left: 8px;
+}

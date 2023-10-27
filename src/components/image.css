@@ -1,0 +1,16 @@
+.image{
+    position: relative;
+}
+
+
+.timer{
+    position: absolute;
+    background-color: black;
+    color: white;
+    left: 198px;
+    bottom: -5px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: small;
+}
+

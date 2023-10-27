@@ -1,0 +1,14 @@
+body{
+    box-sizing: border-box;
+    margin: 200px;
+    margin-top: 0px;
+    padding: 5px;
+    margin-left: 270px;
+}
+
+.videos-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 50px;
+}

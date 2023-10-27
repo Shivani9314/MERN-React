@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+
+.logo{
+    width: 110px;
+    margin-left: 150px;
+}
+
+.search-area{
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    height: 40px;
+    width: 700px;
+}
+
+
+.location{
+    height: 25px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+.search-area select{
+    width: 200px;
+    height: 30px;
+    border: none;
+    margin-left: 5px;
+    opacity: 0.8;
+}
+
+.line{
+    margin-left: 10px;
+    opacity: 0.7;
+}
+
+.search{
+    height: 25px;
+    width: 30px;
+    margin-left: 20px;
+}
+
+
+.search-area input{
+    height: 30px;
+
+    border: none;
+    margin-left: 5px;
+}
+.login-logout{
+    display: flex;
+    padding-inline-end: 20px;
+
+}
+
+.login-logout span{
+    width: 100px;
+}
+
+
+.path{
+    opacity: .7;
+    padding: 30px 10px;
+    font-size: medium;
+}
+.path span{
+    padding-inline: 3px;
+}
+.path :last-child{
+    opacity: .4;
+}
+.tab-main{
+    display: flex;
+    gap: 40px;
+}
+
+.tab-main .item, h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 100;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.active{
+    border-bottom: 2px solid #d64155;
+    color: #d64155;
+}
+
+.tab-icon{
+    background-color: #80808014;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 15px;
+}
+
+.tab-icon img{
+    width: 35px;
+}
+hr{
+    opacity: .7;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-area{
+    display: flex;
+    padding: 20px 0;
+    gap: 10px;
+    margin-left: 40px;
+}
+.btn button{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #00000069;
+    background-color: white;
+    color: #00000069;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: rgb(248, 248, 248);
+}
+.btn button img{
+    width: 15px;
+    margin-right: 5px;
+}
+.background-gray{
+    background-color: #F8F8F8;
+}
+
+
+.top-food-box{
+    display: flex;
+    gap: 30px;
+    padding: 20px 0;
+    overflow: hidden;
+    margin-left: 40px;
+}
+.top-food-item, .top-brand-item{
+    text-align: center;
+    cursor: pointer;
+}
+.top-food-item img, .top-brand-item img{
+    border-radius: 50%;
+    width: 150px;
+    margin: 3px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.top-food-item p{
+    font-size: 20px;
+}
+.top-food-head{
+    margin-left: 50px;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 15px 0;
+}
+.top-brand-item p{
+    font-size: 16px;
+    text-align: center;
+}
+.top-brand-item p:last-child{
+    font-size: 14px;
+    text-align: center;
+}
+
+.full-container{
+    margin-left: 40px;
+    margin-right: 40px;
+}
